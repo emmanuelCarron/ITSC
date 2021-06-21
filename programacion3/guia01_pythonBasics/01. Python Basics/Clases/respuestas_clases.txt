@@ -1,0 +1,10 @@
+a)
+El método __str__ sirve para definir una cadena que represente el objeto al que identifica __str__. Si no lo definimos, se mostrará que es un objeto de una determinada clase y la dirección de memoria donde se guardó el objeto.
+
+b)
+El método __eq__ sirve para definir un criterio de comparación con otros objetos. Si no lo definimos python compara las direcciones de memoria de los objetos comparados, y si son iguales, son exactamente el mismo objeto.
+
+c)
+__add__ -> si lo definimos podemos establecer un criterio para sumar objetos de nuestras clases.
+
+__lt__, __gt__, __le__, __ge__ -> sirven para definir las relaciones de orden menor que, mayor que, menor o igual y mayor o igual respectivamente.

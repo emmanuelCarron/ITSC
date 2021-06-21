@@ -1,0 +1,14 @@
+2)a)
+La variable __name__ toma el valor "__main__" cuando se lee el programa desde el standard input o se ejecuta como script (como programa principal). En caso de importar el codigo como modulo, python setea __name__ al valor del nombre del fichero que contiene el codigo importado, en el caso de f3 cuando importa f1, la variable __name__ de f1 tiene el valor "f1".
+
+b) 
+La variable __file__ toma como valor la ruta donde se encuentra el archivo que contiene el codigo del script o modulo.
+
+c)
+Estas variables son creadas por python al inicio de la ejecucion del programa. 
+
+d)
+Existen __path__, __spec__, __loader__, __doc__, __cached__
+
+e)
+La linea if __name__ == "__main__": se usa para ejecutar codigo al correr el programa directamente y no cuando lo impotemos como modulo.
